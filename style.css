@@ -85,6 +85,9 @@ header p {
   transition-property: background-color, box-shadow;
   transition-duration: .35s;
 
+  border: 1px solid #000;
+  border-color:rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) ;
+
 }
 
 .post p {
@@ -110,6 +113,8 @@ header p {
 
 .Right {
   flex-direction: row-reverse;
+  border: 1px solid #000;
+  border-color: rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0.5) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
 }
 
 .Right:hover {
@@ -166,8 +171,10 @@ footer p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 300px;
+    height: auto;
     max-height: 600px;
+
+     /* background-color: blue; */
   }
 
   .post p {
